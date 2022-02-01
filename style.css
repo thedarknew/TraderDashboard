@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: #00d4ff;
+}
+
+.CryptoPricesDiv {
+    top: 0%;
+    left: 0%;
+    width: 400px;
+    height: 350px;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    resize: both;
+    overflow: auto;
+}
+
+.CryptoPricesDiv header {
+    color: #6f36ff;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px, 30px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.CryptoPricesDiv header.active {
+    cursor: move;
+    user-select: none;
+}
+
+.CryptoPricesDiv .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 30px 40px;
+}
+
+.content h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#BTCPriceElement {
+    font-size: 15px;
+    font-weight: 500;    
+}
+
+#ETHPriceElement {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#BNBPriceElement {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#SOLPriceElement {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#XMRPriceElement {
+    font-size: 15px;
+    font-weight: 500;
+}
